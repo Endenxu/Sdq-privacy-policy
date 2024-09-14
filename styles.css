@@ -5,21 +5,63 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
-
-h1, h2 {
-    color: #2c3e50;
+    background-color: #fafafa;
 }
 
 h1 {
-    border-bottom: 2px solid #2c3e50;
+    color: #1a1a1a;
+    border-bottom: 2px solid #4a4a4a;
     padding-bottom: 10px;
 }
 
 h2 {
+    color: #2a2a2a;
     margin-top: 30px;
 }
 
 p {
     margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.last-updated {
+    font-style: italic;
+    color: #666;
+}
+
+.contact-info {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
 }
